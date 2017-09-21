@@ -3,7 +3,17 @@ h1, footer {
 	color: #E5E5E5;
 }
 
-@media screen and (min-width: 480px)
+form {
+  height: 50%;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+#checkbox1, #checkbox2 {
+	color: #E5E5E5;
+}
+
 body, html {
 	min-height:100%;
 }
