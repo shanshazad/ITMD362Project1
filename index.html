@@ -7,11 +7,36 @@
 </head>
 
 <body>
-	<form method="get" action="#null">
 	<header id="header">
 		<h1 id="h1">Destination Zero</h1>
 	</header>
-
+	
+	<form method="get" action="#null">
+		<fieldset>
+			<p>
+				<label><input type="text" name="first_name_field" placeholder="First Name"></label>
+			</p>
+			<p>
+				<label><input type="text" name="last_name_field" placeholder="Last Name"></label>
+			</p>
+			<p>
+				<label><input type="email" name="email_field" placeholder="Email Address"></label>
+			</p>
+			<p>
+				<label><input type="password" name="password_field" placeholder="Password"></label>
+			</p>
+		</fieldset>
+	
+		<fieldset>
+			<p>
+				<label><input type="checkbox" name="available_field[]" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
+				<label><input type="checkbox" name="available_field[]" value="Extra"> Email me special deals.</label>
+			</p>
+		</fieldset>
+	
+		<input type="submit" value="Submit">
+	</form>
+	
 	<footer id="footer">
 		<p>Contact information: <a href="mailto:tkang6@hawk.iit.edu">tkang6@hawk.iit.edu</a></p>
 		<p>Copyright of Timothy Kang (2017)</p>
