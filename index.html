@@ -8,11 +8,12 @@
 
 <body>
 	<header id="header">
+		<img src="https://imgur.com/a/IFvEG" alt="DZLogo">
 		<h1 id="h1">Destination Zero</h1>
 	</header>
 	
 	<form method="get" action="#null">
-		<fieldset>
+		<fieldset id= "information">
 			<p>
 				<label><input type="text" name="first_name_field" placeholder="First Name"></label>
 			</p>
@@ -27,7 +28,7 @@
 			</p>
 		</fieldset>
 	
-		<fieldset>
+		<fieldset id= "checkboxes">
 			<p id="checkbox1">
 				<label><input type="checkbox" name="available_field[]" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
 			</p>
@@ -35,8 +36,10 @@
 				<label><input type="checkbox" name="available_field[]" value="Extra"> Email me special deals.</label>
 			</p>
 		</fieldset>
-	
-		<input type="submit" value="Sign Up">
+		
+		<div id= "button">
+			<input type="submit" value="Sign Up">
+		</div>
 	</form>
 	
 	<footer id="footer">
