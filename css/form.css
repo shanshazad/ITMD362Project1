@@ -1,11 +1,18 @@
-@media screen and (min-width: 480px)
-header {
-	height: 100%;
-    max-width: 890px;
-    text-align: center;
+h1, footer {
+	text-align: center;
+	color: #E5E5E5;
 }
 
+@media screen and (min-width: 480px)
+body, html {
+	min-height:100%;
+}
 
+body {
+	background-image:url("../pictures/background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Forms
