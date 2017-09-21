@@ -3,11 +3,28 @@ h1, footer {
 	color: #E5E5E5;
 }
 
-form {
-  height: 50%;
-  width: 30%;
-  margin: auto;
-  text-align: center;
+#information {
+	height: 50%;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+}
+
+#checkboxes {
+	height: 50%;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#button {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
 }
 
 #checkbox1, #checkbox2 {
