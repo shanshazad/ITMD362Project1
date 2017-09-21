@@ -1,3 +1,12 @@
+@media screen and (min-width: 480px)
+header {
+	height: 100%;
+    max-width: 890px;
+    text-align: center;
+}
+
+
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Forms
    ========================================================================== */
