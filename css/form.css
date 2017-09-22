@@ -48,8 +48,10 @@ h1, footer {
 	font-family: 'Gudea', sans-serif;
 }
 
+@media screen and (min-width: 480px) {
 body, html {
 	min-height:100%;
+}
 }
 
 body {
