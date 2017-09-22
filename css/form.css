@@ -1,15 +1,12 @@
 h1, footer {
 	text-align: center;
 	color: #E5E5E5;
+	font-family: 'Raleway', sans-serif;
 }
 
 #logoheader {
 	margin-top: 20px;
 	text-align: center;
-}
-
-h1 {
-	font-family: 'Raleway', sans-serif;
 }
 
 #introduction {
@@ -31,7 +28,6 @@ h1 {
 }
 
 #checkboxes {
-	height: 50%;
 	width: 50%;
 	margin: auto;
 	text-align: center;
@@ -49,6 +45,7 @@ h1 {
 
 #checkbox1, #checkbox2 {
 	color: #E5E5E5;
+	font-family: 'Gudea', sans-serif;
 }
 
 body, html {
