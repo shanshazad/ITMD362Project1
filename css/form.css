@@ -14,7 +14,19 @@ h1 {
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+#introduction {
+  overflow:hidden;
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  border: solid;
+  color: #E5E5E5;
+  text-align: center;
+  font-family: 'Gudea', sans-serif, Arial;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 300px) {
 #introduction {
   overflow:hidden;
   width: 55%;
@@ -52,7 +64,7 @@ h1 {
 }
 }
 
-@media screen and (max-width: 599px){
+@media screen and (min-width: 600px){
 #introduction {
   overflow:hidden;
   width: 80%;
