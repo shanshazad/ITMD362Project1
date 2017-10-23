@@ -23,7 +23,7 @@
 	  <p>Thousands of new flight deals daily. Enjoy your trip without emptying your wallet. </p>
   </div>
 	
-  <form method="get" action="#null" autocomplete="on">
+  <form method="get" action="#null" name="signup_form" autocomplete="on" onsubmit="return buttonSuccess()">
     <fieldset id= "information">
 	  <p>
 		<label><input type="text" name="first_name_field" placeholder="First Name"></label>
@@ -41,15 +41,15 @@
 	
   	<fieldset id= "checkboxes">
 	  <p id="checkbox1">
-		<label><input type="checkbox" name="available_field[]" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
+		<label><input type="checkbox" name="check1" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
 	  </p>
 	  <p id ="checkbox2">
-		<label><input type="checkbox" name="available_field[]" value="Extra"> Email me special deals.</label>
+		<label><input type="checkbox" name="check2" value="Extra"> Email me special deals.</label>
 	  </p>
 	</fieldset>
   		
 	<div id= "button">
-	  <input type="submit" value="Sign Up!!!!" onclick="buttonSuccess();">
+	  <input type="submit" value="Sign Up!!!!" onclick="buttonSuccess(); return false">
 	</div>
   </form>
 	
