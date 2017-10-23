@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-	<meta charset="UTF-8">
-	<title>Sign up for DZ</title>
-	<link rel="stylesheet" type="text/css" href="css/form.css">
-	<link href="https://fonts.googleapis.com/css?family=Gudea%7CRaleway" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Sign up for DZ</title>
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <link href="https://fonts.googleapis.com/css?family=Gudea%7CRaleway" rel="stylesheet">
 </head>
 
 <body>
-	<header id="header">
-		<div id="logoheader">
-			<img src="https://puu.sh/xFAfL/9d8c51c6d4.png" alt="DZLogo">
-		</div>
-		<h1 id="h1">Destination Zero</h1>
-	</header>
+  <header id="header">
+    <div id="logoheader">
+	<img src="https://puu.sh/xFAfL/9d8c51c6d4.png" alt="DZLogo">
+	  </div>
+	    <h1 id="h1">Destination Zero</h1>
+  </header>
 	
-	<div id="introduction">
-		<p>Join DZ today!!!</p>
-		<p>Need to go somewhere without dealing with ridiculous flight costs?</p>
-		<p>Thousands of new flight deals daily. Enjoy your trip without emptying your wallet. </p>
+  <div id="introduction">
+    <p>Join DZ today!!!</p>
+	  <p>Need to go somewhere without dealing with ridiculous flight costs?</p>
+	  <p>Thousands of new flight deals daily. Enjoy your trip without emptying your wallet. </p>
+  </div>
+	
+  <form method="get" action="#null">
+    <fieldset id= "information">
+	  <p>
+		<label><input type="text" name="first_name_field" placeholder="First Name"></label>
+	  </p>
+	  <p>
+		<label><input type="text" name="last_name_field" placeholder="Last Name"></label>
+      </p>
+	  <p>
+		<label><input type="email" name="email_field" placeholder="Email Address"></label>
+	  </p>
+	  <p>
+		<label><input type="password" name="password_field" placeholder="Password"></label>
+	  </p>
+	</fieldset>
+	
+  	<fieldset id= "checkboxes">
+	  <p id="checkbox1">
+		<label><input type="checkbox" name="available_field[]" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
+	  </p>
+	  <p id ="checkbox2">
+		<label><input type="checkbox" name="available_field[]" value="Extra"> Email me special deals.</label>
+	  </p>
+	</fieldset>
+  		
+	<div id= "button">
+	  <input type="submit" value="Sign Up">
 	</div>
+  </form>
 	
-	<form method="get" action="#null">
-		<fieldset id= "information">
-			<p>
-				<label><input type="text" name="first_name_field" placeholder="First Name"></label>
-			</p>
-			<p>
-				<label><input type="text" name="last_name_field" placeholder="Last Name"></label>
-			</p>
-			<p>
-				<label><input type="email" name="email_field" placeholder="Email Address"></label>
-			</p>
-			<p>
-				<label><input type="password" name="password_field" placeholder="Password"></label>
-			</p>
-		</fieldset>
-	
-		<fieldset id= "checkboxes">
-			<p id="checkbox1">
-				<label><input type="checkbox" name="available_field[]" value="Terms"> By checking this box, you agree to our Terms and Policy.</label>
-			</p>
-			<p id ="checkbox2">
-				<label><input type="checkbox" name="available_field[]" value="Extra"> Email me special deals.</label>
-			</p>
-		</fieldset>
-		
-		<div id= "button">
-			<input type="submit" value="Sign Up">
-		</div>
-	</form>
-	
-	<footer id="footer">
-		<p>Contact information: <a href="mailto:tkang6@hawk.iit.edu">tkang6@hawk.iit.edu</a></p>
-		<p>Copyright of Timothy Kang (2017)</p>
-	</footer>
+  <footer id="footer">
+    <p>Contact information: <a href="mailto:tkang6@hawk.iit.edu">tkang6@hawk.iit.edu</a></p>
+	<p>Copyright of Timothy Kang (2017)</p>
+  </footer>
 </body>
 
 </html>
