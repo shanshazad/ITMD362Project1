@@ -6,6 +6,7 @@ h1, footer {
 
 h1 {
   font-size: 3em;
+  line-height: 1.4em;
 }
 
 #logoheader {
@@ -13,9 +14,10 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width: 600px) {
 #introduction {
   overflow:hidden;
-  width: 40%;
+  width: 55%;
   height: 10%;
   margin: auto;
   border: solid;
@@ -27,14 +29,14 @@ h1 {
 
 #information {
   height: 50%;
-  width: 40%;
+  width: 55%;
   margin: auto;
   text-align: center;
   font-size: 1.3em;
 }
 
 #checkboxes {
-  width: 40%;
+  width: 55%;
   margin: auto;
   text-align: center;
   font-size: 1.3em;
@@ -48,16 +50,53 @@ h1 {
   position: relative;
   text-align: center;
 }
+}
+
+@media screen and (max-width: 599px){
+#introduction {
+  overflow:hidden;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  border: solid;
+  color: #E5E5E5;
+  text-align: center;
+  font-family: 'Gudea', sans-serif, Arial;
+  font-size: 1.3em;
+}
+
+#information {
+  height: 50%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#checkboxes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#button {
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+}
+}
 
 #checkbox1, #checkbox2 {
   color: #E5E5E5;
   font-family: 'Gudea', sans-serif, Arial;
 }
 
-@media screen and (min-width: 480px) {
 body, html {
   min-height:100%;
-}
 }
 
 /* using line-height for the letters (1.7em) */
