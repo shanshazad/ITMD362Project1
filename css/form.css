@@ -4,6 +4,10 @@ h1, footer {
   font-family: 'Raleway', sans-serif, Arial;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 #logoheader {
   margin-top: 20px;
   text-align: center;
@@ -11,31 +15,33 @@ h1, footer {
 
 #introduction {
   overflow:hidden;
-  width: 50%;
+  width: 40%;
   height: 10%;
   margin: auto;
   border: solid;
   color: #E5E5E5;
   text-align: center;
   font-family: 'Gudea', sans-serif, Arial;
+  font-size: 1.3em;
 }
 
 #information {
   height: 50%;
-  width: 30%;
+  width: 40%;
   margin: auto;
   text-align: center;
+  font-size: 1.3em;
 }
 
 #checkboxes {
-  width: 50%;
+  width: 40%;
   margin: auto;
   text-align: center;
+  font-size: 1.3em;
 }
 
-
 #button {
-  font-size: 20px;
+  font-size: 1.8em;
   font-weight: bold;
   line-height: 50px;
   padding: 10px 20px;
@@ -54,10 +60,13 @@ body, html {
 }
 }
 
+/* using line-height for the letters (1.7em) */
 body {
   background-image:url("../pictures/background.jpg");
   background-repeat:no-repeat;
   background-color: #1A1A1A;
+  line-height: 1.7em;
+  background-position: bottom left;
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
